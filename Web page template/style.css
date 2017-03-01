@@ -1,0 +1,251 @@
+﻿/*          Reset css >>            */
+html, body, div,li, ul, h2, h3, h4, p, img, a,   #top-nav
+ {
+    margin: 0;
+    padding: 0;  
+}
+/*          Reset css    <<           */
+
+body{	
+	background-image: url("images/bacground_header.png");
+	background-repeat: no-repeat;
+	width: 1400px;
+	height: 1137;
+	font: 62.5%  "Arial", sans-serif;
+	background-color: #2a2e34;
+}
+#header{
+	width: 100%;
+	height: 245;
+}
+	/*          top-nav    >>           */
+#top-nav{
+	padding-top: 1px;
+	background-image: url("images/nav.png");
+	background-repeat: repeat-x;
+	height: 39px;
+	border-bottom: 1px solid #785249;	
+}
+#top-nav:after{
+	content: "";
+	clear: both;
+	display: black;
+}
+#top-nav ul{
+	margin-left: 211px;
+	padding: 0;
+	list-style: none;
+}
+#top-nav ul:after{
+	content: "";
+	clear: both;
+	display: black;
+}
+#top-nav li{
+	margin-top: 10px;
+	padding: 0 13px;
+	float: left;
+}
+#top-nav a {
+	color: #ffffff;
+	text-decoration: none;
+}
+	/*          top-nav    <<           */
+#site-wrap{
+	margin: 0 auto;
+	width: 950px;
+}	
+#logo{
+	float: left;
+}
+#logo:after{
+	content: "";
+	clear: both;
+	display: black;
+} 
+#logo h1{
+	font-size: 4.8em;
+	font: "MS Gothic", sans-serif;
+	color: #ffc0b0;
+	margin: 5px;
+}
+#icons{
+	display: inline;
+}
+#icons img{
+	margin-top: 24px;
+	margin-left: 10px;
+}
+#form_search{
+	float: right;
+	margin-top: 27px;
+	margin-right: 150px;
+}
+#form_search:after{
+	content: "";
+	clear: both;
+	display: black;
+} 
+input[type=search]{
+	background: #603026;
+	height: 26px;
+	width: 148px;
+}
+input[type=submit]{
+	background-image: url("images/button_search.png");
+	border: red;
+	border-radius: 5px;
+	
+}
+#text_box{
+	background-image: url("images/text-box-header.png");
+	background-attachment: no-repeat;
+	height: 111px;
+	width: 257px;
+}
+#text_box p{
+	color: #ffebbc;
+	font-size: 1.2em;
+	font-style: italic;
+	padding: 32px 4px 0 16px;
+}
+#advertisment{
+	background-color: #603026;
+	height: 60px;
+	width: 468px;
+	border: 3px solid #8e5b50;
+	margin-left: 320px;
+	margin-top: 38px;
+	border-radius: 2px;
+}
+#advertisment p{
+	color: #ffebbc;
+	font-size: 1.4em;
+	padding: 22px 4px 0 175px;
+}
+#main_cotent{
+	margin-top: 25px;
+}
+#nav-content{
+	margin-left: 155px;
+}
+#nav-content li{
+
+	background-image: url("images/nav_content_button.png");
+	width: 148px;
+	height: 62px;
+	float: left;
+	margin-left: 5px;
+	padding: 0;
+	list-style: none;
+}
+#nav-content li:after{
+	content: "";
+	clear: both;
+	display: black;
+}
+#nav-content a {
+	font-size: 1.4em;
+}
+#content {
+	background-image: url("images/content_date.png");
+	background-repeat: repeat-y;
+	border-radius: 7px 7px 0 0;
+	width: 646px;
+	height: 830px;
+	background-color: #dcd6c9;
+	float: left;
+}
+#content:after{
+	content: "";
+	clear: both;
+	display: black;
+}
+#date{
+	float: left;
+	background-image: url("images/date.png");
+	width: 109px;
+	height: 90px;
+}
+#date:after{
+	content: "";
+	clear: both;
+	display: black;
+}
+.month{
+	font-size: 2em;
+	color: #a89f8b;
+	margin-left: 22px;
+	padding-top: 15px;
+}
+.day{
+	font-size: 4.8em;
+	color: #333;
+	margin-left: 18px;
+	line-height: 0.8;
+}
+.nav-posts{
+	padding-top: 14px;
+}
+.nav-posts li{
+	background-color: #60aea9;
+	float: left;
+	list-style: none;
+	margin-left: 10px;
+}
+.nav-posts li:after{
+	content: "";
+	clear: both;
+	display: black;
+}
+.nav-posts li:hover{
+	background-color: #b8ad93;
+}
+.nav-posts a{
+	padding: 10px;
+	line-height: 26px;
+	color: #fff;
+	text-decoration: none;
+}
+#posts{
+	
+	height: 300px; 
+	border-bottom: 1px solid #dbcfb4;
+	}
+#posts h2{
+	font-size: 3.6em;
+}
+.name-post{
+	margin-left: 116px;
+}
+#content img{
+	margin-left: 10px;
+	float: left;
+}
+#content img:after{
+	content: "";
+	clear: both;
+	display: black;
+}
+#content p{
+	margin: 5px 33px 0 320px;
+	font-size: 1.2em;
+	line-height: 2em;
+}
+#wigits{
+	border-radius: 0 7px 0 0;
+	margin-top: 10px;
+	margin-right: 1px;
+	float: right;
+	width: 303px;
+	height: 820px;
+	background-color: #dbcfb4;
+}
+.wigit_name{
+	margin-top: 11px;
+	background-image: url("images/wigit_name.png");
+	width: 317px;
+	height: 51px;
+}
+	
+
